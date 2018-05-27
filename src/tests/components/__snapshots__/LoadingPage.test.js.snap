@@ -4,9 +4,21 @@ exports[`Should render the loading page 1`] = `
 <div
   className="loader"
 >
-  <img
-    className="loader__image"
-    src="/images/loader.gif"
-  />
+  <div
+    className="logo"
+  >
+    <p>
+      Loading
+    </p>
+    <div
+      className="green"
+    />
+    <div
+      className="purple"
+    />
+    <div
+      className="blue"
+    />
+  </div>
 </div>
 `;

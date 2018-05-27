@@ -2,7 +2,12 @@ import React from 'react';
 
 const LoadingPage = () => (
   <div className="loader">
-    <img className="loader__image"src="/images/loader.gif" />
+    <div className="logo">
+      <p>Loading</p>
+      <div className="green"></div>
+      <div className="purple"></div>
+      <div className="blue"></div>
+    </div>
   </div>
 );
 
